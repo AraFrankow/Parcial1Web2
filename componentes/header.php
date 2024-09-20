@@ -9,4 +9,11 @@
 <body>
     <header>
         <h1>Parcial 1 de web 2</h1>
+        <nav>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Quienes somos</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
