@@ -1,7 +1,6 @@
 <?php
     include_once("../componentes/header.php")
 ?>
-    <!-- Header -->
     <main>
         <h2>Datos recibidos</h2>
         
@@ -55,7 +54,6 @@
         ?>
 
     </main>
-    <!-- Footer -->
 <?php
     include_once("../componentes/footer.php")
 ?>

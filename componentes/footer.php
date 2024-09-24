@@ -1,5 +1,5 @@
 <footer>
-        <p>Final de la página</p>
+        <p>Copyright © 2024 Arabela Frankow</p>
     </footer>
 </body>
 </html>

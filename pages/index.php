@@ -1,7 +1,6 @@
 <?php
     include_once("../componentes/header.php")
 ?>
-    <!-- Header -->
     <main>
         <?php
             $titulo = array();
@@ -18,7 +17,6 @@
         ?>
 
     </main>
-    <!-- Footer -->
 <?php
     include_once("../componentes/footer.php")
 ?>

@@ -1,7 +1,6 @@
 <?php
     include_once("../componentes/header.php")
 ?>
-    <!-- Header -->
     <main>
         <h1>Contactanos:</h1>
         <form action="recibido.php" method="post" enctype="multipart/form-data">
@@ -38,7 +37,6 @@
             </div>
         </form>
     </main>
-    <!-- Footer -->
 <?php
     include_once("../componentes/footer.php")
 ?>
