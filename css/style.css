@@ -1,27 +1,38 @@
 *{
     padding: 0px;
     margin: 0px;
-};
+}
 header,main,footer{
     padding-left: 10%;
     padding-right: 10%;
-    margin: auto;
-};
+}
 nav ul li{
     display: inline-block;
-    margin: 20px;
-};
+    margin-left: 10px;
+}
+nav ul li a{
+    padding: 20px;
+}
 nav ul li a:hover{
-    background-color: rgb(55, 55, 221);
+    background-color: rgb(47, 47, 161);
     color: white;
-    margin: 50px;
-};
-header{
+}
+.container{
     display: flex;
     align-items: center;
     background-color: blue;
-};
+}
 a{
     color: white;
     text-decoration: none;
-};
+}
+footer{
+    background-color: blue;
+    position:fixed;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    color: white;
+    text-align: right;
+    right: 0;
+}
