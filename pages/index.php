@@ -1,7 +1,7 @@
 <?php
     include_once("../componentes/header.php")
 ?>
-    <main class="espacio">
+    <main class="mas">
         <?php
         $titulo = array();
         $titulo['Titulo'] = "Preparate para recorrer el mundo";
@@ -39,17 +39,17 @@
         }
 
         $imagenes = array();
-        $imagenes['Buenos Aires'] = "../img/buenos_aires.jpg";
+        $imagenes['Buenos_Aires'] = "../img/buenos_aires.jpg";
         $imagenes['Córdoba'] = "../img/cordoba.jpg";
         $imagenes['Mendoza'] = "../img/mendoza.jpg";
-        $imagenes['San Juan'] = "../img/san_juan.jpg";
+        $imagenes['San_Juan'] = "../img/san_juan.jpg";
 
         foreach ($imagenes as $nombre => $foto) {
-            print "<img src=$foto alt=$nombre class=tamanio >";
+            print "<img src=$foto alt=$nombre class=tamanio title=$nombre >";
             
         }
     ?>
-    <a href="contacto.php" class="boton">Reservá ahora</a>
+        <a href="contacto.php" class="boton">Reservá ahora</a>
 
     </main>
 <?php

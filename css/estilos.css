@@ -7,9 +7,6 @@ main{
     margin-right: 10%;
 
 }
-.espacio{
-    margin-bottom: 50px;
-}
 header{
     padding-left: 10%;
     padding-right: 10%;
@@ -58,7 +55,7 @@ input{
     display: table-row;
 }
 ul.espacio li{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .espacio{
     padding-left: 30px;
@@ -94,9 +91,10 @@ fieldset{
 }
 fieldset div{
     padding-right: 15px;
+    padding-bottom: 10px;
 }
 input, select{
-    box-shadow: 8px 5px 8px rgb(43, 43, 56);
+    box-shadow: 8px 5px 8px rgb(55, 55, 82);
     padding: 2px;
     border-color: white;
     border-radius: 10px;
@@ -126,4 +124,7 @@ input[type="submit"]:hover, .boton:hover {
 }
 h2{
     margin-top: 20px;
+}
+.mas{
+    margin-bottom: 50px;
 }
