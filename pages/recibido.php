@@ -19,27 +19,33 @@
             $nombre = $_POST['nombre'];
             $apellido = $_POST['apellido'];
             
-            print "<p>Gracias $nombre $apellido por contar con nosotros, en cuanto tengamos vuelos disponibles con estos requisitos te avisaremos</p>";
+            print "<p class=abajo>Gracias $nombre $apellido por contar con nosotros, en cuanto tengamos vuelos disponibles con estos requisitos te avisaremos</p>";
         }
+        print "<ul class=espacio>";
         if(isset($_POST['email'])){
             $email = $_POST['email'];
         
-            print "<p>Su email: $email</p>";
+            print "<li><p>Su email: $email</p></li>";
         }
-        if(isset($_POST['salida'])){
-            $salida = $_POST['salida'];
+        if(isset($_POST['ida'])){
+            $ida = $_POST['ida'];
         
-            print "<p>La fecha de salida: $salida</p>";
+            print "<li><p>Fecha de ida: $ida</p></li>";
         }
-        if(isset($_POST['regreso'])){
-            $regreso = $_POST['regreso'];
+        if(isset($_POST['vuelta'])){
+            $vuelta = $_POST['vuelta'];
         
-            print "<p>La fecha de regreso: $regreso</p>";
+            print "<li><p>Fecha de vuelta: $vuelta</p></li>";
+        }
+        if(isset($_POST['pais'])){
+            $pais = $_POST['pais'];
+        
+            print "<li><p>Destino: $pais</p></li>";
         }
         if(isset($_POST['dni'])){
             $dni = $_POST['dni'];
         
-            print "<p>Su dni: $dni</p>";
+            print "<p><li>Su dni: $dni</p></li>";
         }
         $imagen = $_FILES ['archivo']['tmp_name'];
         
@@ -47,9 +53,11 @@
         move_uploaded_file($imagen, "../img/$nuevoNombre");
         
         print "
+            <li><p>Imagen de su dni:</p></li>
             <figure>
-                <img src=../img/$nuevoNombre alt=dni >
+                <img src=../img/$nuevoNombre alt=dni class=mandada>
             </figure>
+            </ul>
         ";
         ?>
 

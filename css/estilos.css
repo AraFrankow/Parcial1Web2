@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+nav ul li a{
+    padding: 20px;
+}
+nav ul li a:hover{
+    background-color: rgb(47, 47, 161);
+    color: white;
+}
+.container{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgb(90, 92, 236), rgb(32, 36, 238));
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+footer{
+    background: linear-gradient(rgb(32, 36, 238), rgb(90, 92, 236));
+    color: white;
+    text-align: center;
+    font-size: x-small;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-top: 15px;
+}
+form div{
+    display: inline-block;
+}
+input{
+    border-color: white;
+    border-radius: 10px;
+}
+.lugar{
+    display: table-row;
+}
+ul.espacio li{
+    padding-bottom: 20px;
+}
+.espacio{
+    padding-left: 30px;
+}
+.abajo{
+    margin-bottom: 15px;
+}
+h1, h2, p{
+    padding-bottom: 10px;
+}
+.testimonios{
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    font-style: italic;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+cite{
+    display: block;
+    text-align: right;
+    padding-bottom: 5px;
+}
+.boton{
+    background-color: rgb(32, 36, 238);
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+}
+fieldset{
+    padding: 10px;
+}
+fieldset div{
+    padding-right: 15px;
+}
+input, select{
+    box-shadow: 8px 5px 8px rgb(43, 43, 56);
+    padding: 2px;
+    border-color: white;
+    border-radius: 10px;
+}
+input[type="file"] {
+    box-shadow: 0px 5px 8px rgb(43, 43, 56);
+    padding: 2px;
+    border-color: white;
+    border-radius: 10px;
+}
+input[type="submit"] {
+    box-shadow: none;
+}
+input[type="submit"]:hover, .boton:hover {
+    background-color: rgb(90, 92, 236);
+}
+.mandada{
+    width: 400px;
+    height: 200px;
+}
