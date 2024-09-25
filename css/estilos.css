@@ -5,6 +5,10 @@
 main{
     margin-left: 10%;
     margin-right: 10%;
+
+}
+.espacio{
+    margin-bottom: 50px;
 }
 header{
     padding-left: 10%;
@@ -35,9 +39,12 @@ footer{
     color: white;
     text-align: center;
     font-size: x-small;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+    position:fixed;
+    bottom:0px;
+    height:40px;
+    width:100%;
+}
+footer p{
     padding-top: 15px;
 }
 form div{
@@ -59,7 +66,7 @@ ul.espacio li{
 .abajo{
     margin-bottom: 15px;
 }
-h1, h2, p{
+.somos, h1, h2{
     padding-bottom: 10px;
 }
 .testimonios{
@@ -83,6 +90,7 @@ cite{
 }
 fieldset{
     padding: 10px;
+    margin-bottom: 20px;
 }
 fieldset div{
     padding-right: 15px;
@@ -108,4 +116,14 @@ input[type="submit"]:hover, .boton:hover {
 .mandada{
     width: 400px;
     height: 200px;
+}
+.tamanio{
+    width: 600px;
+    height: 400px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 25px;
+}
+h2{
+    margin-top: 20px;
 }
